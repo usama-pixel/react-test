@@ -47,7 +47,7 @@ import { useEffect, useContext } from "react";
 import { AreaChart } from "reaviz";
 import trend from "./images/icons8-account-24 (1).png";
 import PENCIL from "./images/icons8-pencil-96.png";
-import calendar from "./images/icons8-calendar-100.png";
+import calendar from "./images/icons8-calendar-50.png";
 import time from "./images/Screenshot 2022-10-09 171855.png";
 import vbnh from "./images/Screenshot 2022-10-09 171938.png";
 import ticky from "./images/Screenshot 2022-10-09 172241.png";
