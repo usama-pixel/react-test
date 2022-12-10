@@ -39,12 +39,11 @@ import dots from "./images/icons8-menu-vertical-24.png";
 import upwardarrow from "./images/icons8-up-arrow-24.png";
 import downwardarrow from "./images/icons8-down-arrow-24.png";
 import updownarrow from "./images/icons8-up-down-arrow-24.png";
-import karai from "./images/NoPath - Copy (14)-4.png";
+import karai from "./images/vendor.webp";
 import okmark from "./images/icons8-box-important-24.png";
 import smiley from './images/smiley.jpg'
 import { useEffect, useContext } from "react";
 
-import { AreaChart } from "reaviz";
 import trend from "./images/icons8-account-24 (1).png";
 import PENCIL from "./images/icons8-pencil-96.png";
 import calendar from "./images/icons8-calendar-50.png";
@@ -59,7 +58,7 @@ import Chart from "./Chart";
 function Home() {
   // const [showCalendar, setShowCalendar] = useState(false);
   const [shows, setshow] = useState(false);
-  const [dataa, setdta] = useState([]);
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     return () => {
@@ -67,24 +66,6 @@ function Home() {
     };
   }, []);
   const Loaddata = () => { };
-
-  // console.log("entere");
-  // axios
-  //   .get("http://localhost:4000/basket/" + vag)
-  //   .then(function (response) {
-  //     setdta(response.data);
-  //     console.log(dataa);
-  //     // handle success
-  //     console.log(response);
-  //     console.log("qwe", dataa[0].user);
-  //   })
-  //   .catch(function (error) {
-  //     // handle error
-  //     console.log(error);
-  //   })
-  //   .then(function () {
-  //     // always executed
-  //   });
 
   const ShowUnshow = () => {
     if (shows == true) {
